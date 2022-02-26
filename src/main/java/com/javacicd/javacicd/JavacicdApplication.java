@@ -15,16 +15,7 @@ public class JavacicdApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Hello World";
+		return "Hello World version 1";
 	}
-
-	// echo "# java-gitactions-cicd" >> README.md
-	// git init
-	// git add README.md
-	// git commit -m "first commit"
-	// git branch -M main
-	// git remote add origin
-	// https://github.com/gokulnathcs4u/java-gitactions-cicd.git
-	// git push -u origin main
 
 }
